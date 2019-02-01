@@ -10,7 +10,7 @@ double F(double valor){
     double res=(valor*exp)-PI;
     return res;
 }
-double biseccion(double a,double b,int MAXIT,double TOL,double EX){ 
+double biseccion(double a,double b,int MAXIT,double TOL){ 
     int cont=1; 
     double c; 
     double fc; 
@@ -18,8 +18,6 @@ double biseccion(double a,double b,int MAXIT,double TOL,double EX){
         c=(a+b)/2; 
         fc=F(c); 
         if(abs(b-a)<TOL) 
-            return c; 
-        if(abs(fc)<EX) 
             return c; 
         if(F(a)*fc<0) 
             b=c; 
