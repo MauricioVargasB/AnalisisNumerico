@@ -4,15 +4,15 @@
 
   El estándar define:
 
-    Formatos aritméticos: conjuntos de datos de coma flotante binarios y decimales, que consisten en números finitos,             incluidos los ceros con signo y los números desnormalizados o subnormales, infinitos y valores especiales "no numéricos"       (NaN).
+   Formatos aritméticos: conjuntos de datos de coma flotante binarios y decimales, que consisten en números finitos,              incluidos los ceros con signo y los números desnormalizados o subnormales, infinitos y valores especiales "no numéricos"      (NaN).
     
-    Formatos de intercambio: codificaciones (cadenas de bits) que se pueden utilizar para intercambiar datos de coma flotante     de forma eficiente y compacta.
+   Formatos de intercambio: codificaciones (cadenas de bits) que se pueden utilizar para intercambiar datos de coma flotante      de forma eficiente y compacta.
   
-    Reglas de redondeo: propiedades que deben satisfacerse al redondear los números durante las operaciones aritméticas y las     conversiones.
+   Reglas de redondeo: propiedades que deben satisfacerse al redondear los números durante las operaciones aritméticas y las      conversiones.
 
-    Operaciones: operaciones aritméticas y otras (como funciones trigonométricas) en formatos aritméticos.
+   Operaciones: operaciones aritméticas y otras (como funciones trigonométricas) en formatos aritméticos.
     
-    Manejo de excepciones: indicaciones de condiciones excepcionales, tales como división por cero, desbordamiento, etc.
+   Manejo de excepciones: indicaciones de condiciones excepcionales, tales como división por cero, desbordamiento, etc.
 
 La norma también es conocida como IEC 60559:1989, Binary floating-point arithmetic for microprocessor systems (originalmente el número de referencia era IEC 559:1989).1​
 
