@@ -5,7 +5,7 @@ using namespace std;
 const double EULER = 2.71828182845904523536;
 const double PI = 3.14159265358979323846;
 
-double evaluar(double valor){
+double F(double valor){
     double exp=pow(EULER,valor);
     double res=(valor*exp)-PI;
     return res;
