@@ -1,4 +1,4 @@
-Analisis Numerico
+Análisis Numérico
 
 Edwin Mauricio Vargas Ballesteros
 
