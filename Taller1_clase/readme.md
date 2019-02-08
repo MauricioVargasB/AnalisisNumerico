@@ -10,8 +10,8 @@ Además, se pudo evidenciar que es el metodo utilizado para hacer la conversión
 
 Punto 1.
 
-  Ejercicio 
-
 Presetando por:
+
   Edwin Mauricio Vargas Ballesteros
+  
   Sebastian Pedraza Mancera
