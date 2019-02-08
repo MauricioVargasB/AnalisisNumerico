@@ -1,4 +1,5 @@
 Punto 2.
+
 La eficiencia de un algoritmo hace referencia a que tanto tiempo requiere este mismo en realizar los cálculos o procesos
 para los cuales fue diseñado. Con el siguiente procedimiento se escribió un algoritmo cuya eficiencia está denotada por T(n)
 y cuyo valor de entrada es un número n el cual es dividido a la mitad hasta que el resultado deje de ser mayor a
@@ -9,3 +10,8 @@ Además, se pudo evidenciar que es el metodo utilizado para hacer la conversión
 
 Punto 1.
 
+  Ejercicio 
+
+Presetando por:
+  Edwin Mauricio Vargas Ballesteros
+  Sebastian Pedraza Mancera
