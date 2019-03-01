@@ -2,7 +2,12 @@
 #include <math.h> 
 #define e 2.718281828 
 
-double fun (double); 
+
+double fun(double x){ 
+double res; 
+res=tan(PI*X)-sin(PI*x);
+return res; 
+}
 
 main (){ 
 /*Para resolver la funcion siguiente x = 2 - e^x + x^2/3 
