@@ -1,7 +1,7 @@
 
 Tabla con errores:
 
- variable     valor practico      valor teórico       Error
+ variable      valor practico      valor teórico       Error
  
     x1        1.99999999700956          2           1.49 x 10^-9
     
