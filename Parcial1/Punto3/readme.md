@@ -13,3 +13,5 @@ Total iteraciones: 3908
 
 Aqui se evidencia que el algoritmo tiene una efectividad muy alta, debido a que determina un valor practicamente exacto al teoricamente
 propuesto.
+
+Para la realización de este algoritmo, fue usada una precisión de 15 cifras. Debido al valor manejado en los errores.
