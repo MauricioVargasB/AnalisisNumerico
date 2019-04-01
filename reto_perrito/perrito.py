@@ -261,23 +261,39 @@ def puntosCurva4():
     puntos = []
     punto=[]
     punto.append(24.5)
-    punto.append(5.6)
+    punto.append(5.97)
     puntos.append(punto)
 
     punto=[]
+    punto.append(23.5)
+    punto.append(5.85)
+    puntos.append(punto)
+
+
+    punto=[]
     punto.append(25)
-    punto.append(5.87)
+    punto.append(6)
     puntos.append(punto)
 
     punto=[]
     punto.append(26.5)
-    punto.append(5.15)
+    punto.append(5.58)
     puntos.append(punto)
 
 
     punto=[]
     punto.append(27.5)
     punto.append(4.1)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(25.84)
+    punto.append(5.9)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(27.15)
+    punto.append(4.97)
     puntos.append(punto)
 
     #print(puntos)
@@ -287,24 +303,47 @@ def puntosCurva3():
     puntos = []
     punto=[]
     punto.append(20)
-    punto.append(7)
+    punto.append(7.48)
     puntos.append(punto)
 
     punto=[]
-    punto.append(17.6)
-    punto.append(4.45)
+    punto.append(16.65)
+    punto.append(4.82)
     puntos.append(punto)
 
     punto=[]
     punto.append(23.5)
-    punto.append(6.1)
+    punto.append(5.85)
     puntos.append(punto)
-
 
     punto=[]
-    punto.append(24.5)
-    punto.append(5.6)
+    punto.append(17.36)
+    punto.append(5.80)
     puntos.append(punto)
+
+    punto=[]
+    punto.append(18.15)
+    punto.append(6.61)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(19.06)
+    punto.append(7.25)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(21.11)
+    punto.append(7.32)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(22.02)
+    punto.append(6.71)
+    puntos.append(punto)
+    #punto=[]
+    #punto.append(24.5)
+    #punto.append(5.97)
+    #puntos.append(punto)
 
     #print(puntos)
     return puntos
@@ -326,7 +365,7 @@ def puntosCurva2():
 
     punto=[]
     punto.append(7.5)
-    punto.append(5.7)
+    punto.append(6.19)
     puntos.append(punto)
 
     punto=[]
@@ -336,7 +375,7 @@ def puntosCurva2():
 
     punto=[]
     punto.append(10)
-    punto.append(7.12)
+    punto.append(7.40)
     puntos.append(punto)
 
     punto=[]
@@ -345,9 +384,36 @@ def puntosCurva2():
     puntos.append(punto)
 
     punto=[]
-    punto.append(17.6)
-    punto.append(4.45)
+    punto.append(16.65)
+    punto.append(4.82)
     puntos.append(punto)
+
+    punto=[]
+    punto.append(5.62)
+    punto.append(4.16)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(6.87)
+    punto.append(5.43)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(11.78)
+    punto.append(7.24)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(9.03)
+    punto.append(7.13)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(14.92)
+    punto.append(5.78)
+    puntos.append(punto)
+
+
 
     #print(puntos)
     return puntos
@@ -356,6 +422,10 @@ def puntosCurva2():
 def puntosCurva1():
     puntos = []
 
+    punto=[]
+    punto.append(5)
+    punto.append(3.9)
+    puntos.append(punto)
 
     punto=[]
     punto.append(1)
@@ -364,13 +434,45 @@ def puntosCurva1():
 
     punto=[]
     punto.append(2)
-    punto.append(3.7)
+    punto.append(3.82)
     puntos.append(punto)
 
     punto=[]
-    punto.append(5)
-    punto.append(3.9)
+    punto.append(1.14)
+    punto.append(3.33)
     puntos.append(punto)
+
+    punto=[]
+    punto.append(1.49)
+    punto.append(3.73)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(2.41)
+    punto.append(3.84)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(2.88)
+    punto.append(3.84)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(3.36)
+    punto.append(3.85)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(3.75)
+    punto.append(3.86)
+    puntos.append(punto)
+
+    punto=[]
+    punto.append(4.42)
+    punto.append(3.87)
+    puntos.append(punto)
+
+
 
     #print(puntos)
     return puntos
@@ -429,7 +531,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     print("\n")
 
     plt.plot(x1,y1,"+")
-    x1=np.linspace(5,17.6)
+    x1=np.linspace(5,16.65)
     plt.plot(x1,p1(x1))
     for i in range(0,len(puntosI2)):
         error=((math.fabs(p1(puntosI2[i][0])-puntosI2[i][1]))/(puntosI2[i][1]))*100
@@ -450,7 +552,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
 
     p2=lagrange(x2,y2)
     plt.plot(x2,y2,"+")
-    x2=np.linspace(17.6,24.5)
+    x2=np.linspace(16.65,23.5)
     plt.plot(x2,p2(x2))
     print("-------------------------Errores Curva 3------------------------------")
     print("\n")
@@ -459,7 +561,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI3)):
         error=((math.fabs(p2(puntosI3[i][0])-puntosI3[i][1]))/(puntosI3[i][1]))*100
         print(puntosI3[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
 
@@ -474,7 +576,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
 
     p3=lagrange(x3,y3)
     plt.plot(x3,y3,"+")
-    x3=np.linspace(24.5,27.5)
+    x3=np.linspace(23.5,27.5)
     plt.plot(x3,p3(x3))
     print("-------------------------Errores Curva 4------------------------------")
     print("\n")
@@ -483,7 +585,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI4)):
         error=((math.fabs(p3(puntosI4[i][0])-puntosI4[i][1]))/(puntosI4[i][1]))*100
         print(puntosI4[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
 
@@ -508,7 +610,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI5)):
         error=((math.fabs(p4(puntosI5[i][0])-puntosI5[i][1]))/(puntosI5[i][1]))*100
         print(puntosI5[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 #A1ui inician las curvas inferiores
     x5 = []
@@ -530,7 +632,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI6)):
         error=((math.fabs(p5(puntosI6[i][0])-puntosI6[i][1]))/(puntosI6[i][1]))*100
         print(puntosI6[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
 
@@ -553,7 +655,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI7)):
         error=((math.fabs(p6(puntosI7[i][0])-puntosI7[i][1]))/(puntosI7[i][1]))*100
         print(puntosI7[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
 
@@ -576,7 +678,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI8)):
         error=((math.fabs(p7(puntosI8[i][0])-puntosI8[i][1]))/(puntosI8[i][1]))*100
         print(puntosI8[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
 
@@ -599,7 +701,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI9)):
         error=((math.fabs(p8(puntosI9[i][0])-puntosI9[i][1]))/(puntosI9[i][1]))*100
         print(puntosI9[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
 
@@ -621,7 +723,7 @@ def graficar(puntosI1,puntosI2,puntosI3,puntosI4,puntosI5,puntosI6,puntosI7,punt
     for i in range(0,len(puntosI10)):
         error=((math.fabs(p9(puntosI10[i][0])-puntosI10[i][1]))/(puntosI10[i][1]))*100
         print(puntosI10[i])
-        print(round(error,4))
+        print(round(error,2))
         print("\n")
 
     plt.show()
@@ -639,23 +741,31 @@ def invocarAlgoritmos():
     puntosI10 = puntosCurva10()
 
     puntosC1 = algoritmoDividirConquistar(puntosCurva1())
+    #puntosC1 = algoritmoDividirConquistar(puntosCurva1())
+    #puntosC1 = puntosCurva1()
+    #puntosC2 = puntosCurva2()
+    puntosC3 = puntosCurva3()
+    puntosC4 = puntosCurva4()
+    #puntosC5 = puntosCurva5()
     puntosC2 = algoritmoDividirConquistar(puntosCurva2())
-    puntosC3 = algoritmoDividirConquistar(puntosCurva3())
-    puntosC4 = algoritmoDividirConquistar(puntosCurva4())
+    #puntosC3 = algoritmoDividirConquistar(puntosCurva3())
+    #puntosC4 = algoritmoDividirConquistar(puntosCurva4())
     puntosC5 = algoritmoDividirConquistar(puntosCurva5())
     puntosC6 = algoritmoDividirConquistar(puntosCurva6())
-    #puntosC7 = algoritmoDividirConquistar(puntosCurva7())
+    puntosC7 = algoritmoDividirConquistar(puntosCurva7())
     puntosC7 =puntosCurva7()
     puntosC8 = algoritmoDividirConquistar(puntosCurva8())
     puntosC9 = algoritmoDividirConquistar(puntosCurva9())
     puntosC10 = algoritmoDividirConquistar(puntosCurva10())
 
-    #curva1 = "Resultado Dividir y Conquistar:\n" + str(puntosC7)
+    curva1 = "\nResultado Dividir y Conquistar:\n" + str(puntosC1)
+    inicial1 = "\npuntos iniciales:\n"+str(puntosI1)
     #curva2 = "Resultado Dividir y Conquistar:\n" + str(puntosC2)
     #curva3 = "Resultado Dividir y Conquistar:\n" + str(puntosC3)
     #curva4 = "Resultado Dividir y Conquistar:\n" + str(puntosC4)
     #curva5 = "Resultado Dividir y conquistar:\n" + str(puntosC5)
-    #print("curva1")
+    #print(curva1)
+    #print(inicial1)
     #print(curva1)
     #print(curva2)
     #print(curva3)
